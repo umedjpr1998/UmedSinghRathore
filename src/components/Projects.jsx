@@ -8,7 +8,7 @@ const Projects = () => {
         {
             title: 'Project 1',
             subtitle: 'Umed Info Tech',
-            description: 'A modern e-commerce platform with product listing, shopping cart, and checkout features.',
+            description: 'A modern e-commerce platform with product listing, Contact us Throw email and Login And Signup.',
             image: pro1,
         },
         {

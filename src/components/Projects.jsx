@@ -8,15 +8,10 @@ const Projects = () => {
         {
             title: 'Project 1',
             subtitle: 'Umed Info Tech',
-<<<<<<< HEAD
-            link: 'https://umedinfotech.netlify.app/',
-            description: 'An e-commerce mini platform with Home, About Us, Products, Contact Us, FAQ, Signup and Login pages.',
-=======
-            description: 'A modern e-commerce platform with product listing, Contact us Throw email and Login And Signup.',
->>>>>>> 86f7b02ae4d58b685facca51e6f0d21c6622ea9f
-            image: pro1,
-
+            link: 'https://umedinfotech.netlify.app/',  // Or merge the best parts
+            description: 'An e-commerce mini platform...'
         },
+
         {
             title: 'Project 2',
             subtitle: 'Daily Mart',

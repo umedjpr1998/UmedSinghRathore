@@ -41,6 +41,13 @@ p {
     letter-spacing: 0.05rem;
 }
 
+.logo-circle {
+    width: 55px;
+    height: 55px;
+    border-radius: 90%;
+    object-fit: cover;
+}
+
 .section-title {
     font-size: 4rem;
     font-weight: 300;

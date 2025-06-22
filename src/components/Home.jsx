@@ -43,10 +43,17 @@ const Home = () => {
                 <div className="header container">
                     <div className="nav-bar">
                         <div className="brand">
-                            <a href="#hero">
+                            <a href="#hero" style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+                                {/* Logo inside a circle */}
+                                <img
+                                    src="/logo.png"  // <-- replace with actual path
+                                    alt="Logo"
+                                    className="logo-circle"
+                                />
                                 <h1><span>U</span>med <span>S</span>ingh <span>R</span>athore</h1>
                             </a>
                         </div>
+
                         <div className="nav-list">
                             <div className="hamburger">
                                 <div className="bar"></div>

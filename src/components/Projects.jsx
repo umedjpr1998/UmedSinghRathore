@@ -8,22 +8,29 @@ const Projects = () => {
         {
             title: 'Project 1',
             subtitle: 'Umed Info Tech',
-            description: 'A modern e-commerce platform with product listing, shopping cart, and checkout features.',
+            link: 'https://umedinfotech.netlify.app/',
+            description: 'An e-commerce mini platform with Home, About Us, Products, Contact Us, FAQ, Signup and Login pages.',
             image: pro1,
+
         },
         {
             title: 'Project 2',
             subtitle: 'Daily Mart',
+            link: 'https://github.com/umedjpr1998/DailyMart.git',
             description: 'A modern e-commerce platform with product listing, shopping cart, and checkout features.',
             image: pro2,
+
         },
         {
             title: 'Project 3',
-            subtitle: 'Tomato',
-            description: 'A productivity app to create, manage, and track daily tasks with user-friendly UI.',
+            subtitle: 'Chopal',
+            link: 'https://chopal.netlify.app/',
+            description: 'A mini social media webpage.',
             image: pro3,
-        },
+
+        }
     ];
+
 
     return (
         <section id="projects">
@@ -38,6 +45,17 @@ const Projects = () => {
                                 <h1>{project.title}</h1>
                                 <h2>{project.subtitle}</h2>
                                 <p>{project.description}</p>
+
+                                {/* 🔗 Add this link section */}
+                                <a
+                                    href={project.link}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="project-link"
+                                    style={{ color: '#1e90ff', textDecoration: 'none', marginTop: '10px', display: 'inline-block', fontSize: 15 }}
+                                >
+                                    🔗 Visit Website
+                                </a>
                             </div>
                             <div className="project-img">
                                 <img src={project.image} alt={project.title} />
